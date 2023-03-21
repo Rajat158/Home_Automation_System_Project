@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  margin-top: -30px;
+  padding: 0;
+  background-color: rgb(156, 207, 246);
+
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.button_on{
+  position: relative;
+  text-align: center;
+  width: 250px;
+  padding: 30px;
+  font-size: 25px;
+  color: rgb(10, 88, 3);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  border: 6px solid rgb(10, 88, 3);
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1s;
+}
+
+.button_on:hover{
+  box-shadow: 0 5px 50px 0 rgb(14, 162, 9) inset, 0 5px 50px 0 rgb(14, 162, 9),0 5px 50px 0 rgb(14, 162, 9) inset, 0 5px 50px 0 rgb(14, 162, 9);
+  text-shadow: 0 0 5px rgb(10, 88, 3);
+
+}
+.button_off{
+  position: relative;
+  text-align: center;
+  width: 250px;
+  padding: 30px;
+  font-size: 25px;
+  color: rgb(99, 5, 5);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  border: 6px solid rgb(99, 5, 5);
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1s;
+}
+
+.button_off:hover{
+  box-shadow: 0 5px 50px 0 rgb(200, 9, 9) inset, 0 5px 50px 0 rgb(200, 9, 9),0 5px 50px 0 rgb(200, 9, 9) inset, 0 5px 50px 0 rgb(200, 9, 9);
+  text-shadow: 0 0 5px rgb(99, 5, 5);
+
+}
+.sps{
+  padding-bottom: 30px;
+}
+.door{
+  padding-top:-10px;
+  padding-left:35%;
+  color: rgb(6, 31, 158);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 6rem;
+}
+
